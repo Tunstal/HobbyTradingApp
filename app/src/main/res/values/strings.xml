@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Mobile App Project</string>
+    <string name="btn_Cards">Cards</string>
+    <string name="btn_Miniatures">Miniatures</string>
+    <string name="btn_Comics">Comics</string>
+    <string name="btn_RCKits">RC Kits</string>
+    <string name="btn_ListItem">List Item</string>
+    <string name="btn_buy">Buy</string>
+    <string name="desc_backButton">Back Button</string>
+    <string name="desc_searchBar">Image of Search Bar</string>
+    <string name="btn_postItem">Post</string>
+    <string name="txt_postTitle">Title/Name of Item</string>
+    <string name="txt_postPrice">Price of Item</string>
+    <string name="txt_postLocation">Location</string>
+    <string name="txt_postDescription">Description of Item</string>
+    <string name="txt_postPicture">Upload Picture of Item</string>
+    <string name="txt_postCategory">Category for Item</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_price">000.00</string>
+    <string name="hint_location">City, State</string>
+    <string name="hint_description">Enter a Description of the Item</string>
+    <string name="desc_uploadBtn">Upload Button</string>
+    <string name="txt_item1Title">Ork on War Bike Mini</string>
+    <string name="txt_item1Price">$35.00</string>
+    <string name="txt_item1Location">Norfolk, Virginia</string>
+    <string name="txt_item1Description">Hand painted Ork War Bike model with a bit wear and
+            chipped paint.  10 inches tall with a diameter of 15 inches for the base.</string>
+    <string name="txt_item2Title">Miniature Set of War Soldiers</string>
+    <string name="txt_item2Price">$14.50</string>
+    <string name="txt_item2Location">Gates, North Carolina </string>
+    <string name="txt_item2Description">Old miniature set of 3 War Soldiers from the 1960s.  Seen
+            better days and the price is negotiable. Contact at 757-287-1111</string>
+    <string name="txt_item3Title">Elf Druid DnD Mini</string>
+    <string name="txt_item3Price">$6.75</string>
+    <string name="txt_item3Location">Blacksburg, Virginia</string>
+    <string name="txt_item3Description">Hand painted miniature used for Dungeons and Dragons.  A
+            female elf with an druid aesthetic and is about 3 inches high and 4 inches wide. </string>
+    <string name="txtDesc">Description</string>
+    <string name="btn_exit">Exit button</string>
+    <string name="btn_Items">Button to view items</string>
+    <string-array name="strarr_category">
+        <item>Cards</item>
+        <item>Comics</item>
+        <item>Miniatures</item>
+        <item>RC Kits</item>
+    </string-array>
+</resources>

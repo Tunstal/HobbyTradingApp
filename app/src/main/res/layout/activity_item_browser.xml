@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemBrowser">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnListItem2"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:background="#270401"
+        android:backgroundTint="#270401"
+        android:text="@string/btn_ListItem"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnItem3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnItem3"
+        android:layout_width="379dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/box_outline"
+        android:contentDescription="@string/btn_Items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnItem2" />
+
+    <TextView
+        android:id="@+id/txtItem3Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/txt_item3Title"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imgItem3"
+        app:layout_constraintTop_toTopOf="@+id/btnItem3" />
+
+    <TextView
+        android:id="@+id/txtItem3Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_item3Location"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imgItem3"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem3Price" />
+
+    <TextView
+        android:id="@+id/txtItem3Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_item3Price"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imgItem3"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem3Title" />
+
+    <ImageView
+        android:id="@+id/imgItem3"
+        android:layout_width="100dp"
+        android:layout_height="145dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/btnItem3"
+        app:layout_constraintStart_toStartOf="@+id/btnItem3"
+        app:layout_constraintTop_toTopOf="@+id/btnItem3"
+        app:srcCompat="@drawable/img_dndmini" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnItem2"
+        android:layout_width="379dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/box_outline"
+        android:contentDescription="@string/btn_Items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/img1Item1"
+        app:layout_constraintTop_toBottomOf="@+id/btnItem1" />
+
+    <TextView
+        android:id="@+id/txtItem2Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/txt_item2Title"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/imgItem2"
+        app:layout_constraintTop_toTopOf="@+id/btnItem2" />
+
+    <TextView
+        android:id="@+id/txtItem2Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_item2Location"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imgItem2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem2Price" />
+
+    <ImageView
+        android:id="@+id/imgItem2"
+        android:layout_width="100dp"
+        android:layout_height="145dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/btnItem2"
+        app:layout_constraintStart_toStartOf="@+id/btnItem2"
+        app:layout_constraintTop_toTopOf="@+id/btnItem2"
+        app:srcCompat="@drawable/img_soldiermini" />
+
+    <TextView
+        android:id="@+id/txtItem2Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_item2Price"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imgItem2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem2Title" />
+
+    <ImageView
+        android:id="@+id/imgSearchBar2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc_searchBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_searchbar" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="63dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#FEFAFD"
+        android:contentDescription="@string/desc_backButton"
+        app:layout_constraintBottom_toBottomOf="@+id/imgSearchBar2"
+        app:layout_constraintEnd_toStartOf="@+id/imgSearchBar2"
+        app:layout_constraintTop_toTopOf="@+id/imgSearchBar2"
+        app:srcCompat="@drawable/img_backbutton" />
+
+    <ImageView
+        android:id="@+id/img1Item1"
+        android:layout_width="100dp"
+        android:layout_height="145dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="@+id/btnItem1"
+        app:layout_constraintTop_toTopOf="@+id/btnItem1"
+        app:srcCompat="@drawable/img_orkmini" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnItem1"
+        android:layout_width="379dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/box_outline"
+        android:contentDescription="@string/btn_Items"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSearchBar2" />
+
+    <TextView
+        android:id="@+id/txtItem1Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="@string/txt_item1Title"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/img1Item1"
+        app:layout_constraintTop_toTopOf="@+id/btnItem1" />
+
+    <TextView
+        android:id="@+id/txtItem1Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_item1Price"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/img1Item1"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem1Title" />
+
+    <TextView
+        android:id="@+id/txtItem1Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_item1Location"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/img1Item1"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem1Price" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

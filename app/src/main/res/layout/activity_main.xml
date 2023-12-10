@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnComics"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="#611914"
+        android:backgroundTint="#611914"
+        android:text="@string/btn_Comics"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnListItem"
+        app:layout_constraintEnd_toStartOf="@+id/btnRCKits"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCards" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRCKits"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="#611914"
+        android:backgroundTint="#611914"
+        android:text="@string/btn_RCKits"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnListItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnComics"
+        app:layout_constraintTop_toBottomOf="@+id/btnMiniatures" />
+
+    <ImageView
+        android:id="@+id/imgSearchBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc_searchBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_searchbar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCards"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#611914"
+        android:backgroundTint="#611914"
+        android:text="@string/btn_Cards"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnComics"
+        app:layout_constraintEnd_toStartOf="@+id/btnMiniatures"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSearchBar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMiniatures"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#9F3C35"
+        android:backgroundTint="#9F3C35"
+        android:text="@string/btn_Miniatures"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRCKits"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnCards"
+        app:layout_constraintTop_toBottomOf="@+id/imgSearchBar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnListItem"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="534dp"
+        android:background="#270401"
+        android:backgroundTint="#270401"
+        android:text="@string/btn_ListItem"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSearchBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

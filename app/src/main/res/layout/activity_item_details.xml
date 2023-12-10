@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDetails">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBuy"
+        android:layout_width="351dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="30dp"
+        android:background="#270401"
+        android:backgroundTint="#270401"
+        android:text="@string/btn_buy"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDetailsDesc" />
+
+    <ImageView
+        android:id="@+id/imgDetailsItem"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSearchBar3"
+        app:srcCompat="@drawable/img_orkmini" />
+
+    <ImageView
+        android:id="@+id/imgSearchBar3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc_searchBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_searchbar" />
+
+    <ImageButton
+        android:id="@+id/btnBack2"
+        android:layout_width="63dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#FEFAFD"
+        android:contentDescription="@string/desc_backButton"
+        app:layout_constraintBottom_toTopOf="@+id/imgDetailsItem"
+        app:layout_constraintEnd_toStartOf="@+id/imgSearchBar3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/img_backbutton" />
+
+    <TextView
+        android:id="@+id/txtItemDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/txt_item1Title"
+        android:textAllCaps="false"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgDetailsItem" />
+
+    <TextView
+        android:id="@+id/txtItemDetailsPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/txt_item1Price"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDetailsTitle" />
+
+    <TextView
+        android:id="@+id/txtItemDetailsLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/txt_item1Location"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDetailsPrice" />
+
+    <TextView
+        android:id="@+id/txtItemDetailsDesc"
+        android:layout_width="351dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="5dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/box_outline"
+        android:text="@string/txt_item1Description"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtitemDetailsDescTitle" />
+
+    <TextView
+        android:id="@+id/txtitemDetailsDescTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtDesc"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDetailsLocation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
